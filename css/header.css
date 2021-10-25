@@ -192,7 +192,11 @@ transform: translateY(-0.72rem) rotate(135deg);
     blink-caret .75s step-end infinite;
 }
 
-
+.hero .ball{
+  
+  margin-top: 7.4rem;
+  margin-bottom: 6rem;
+}
 
 @keyframes typing {
   from { width: 0 }
