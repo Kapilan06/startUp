@@ -1,47 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Us</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-   <link rel="stylesheet" href="css/main1.css">
-    <link rel="stylesheet" href="header.css">
-  </head>
-  <body>
-
-    <div class="main-cont">
-        <div class="nav">
-           <div class="burger"> 
-               <div class="burger-line"></div>
-               <div class="burger-line"></div>
-               <div class="burger-line"></div>
-
-           </div>
-           <div>
-               <img src="images/logo.png" width="180px" height="40px" alt="company logo"/>
-           </div>
-
-      
-           <div class="nav-circle">
-                   
-                    <img src="images/navGrid.svg" width="30px" height="30px" />
-             
-           </div>
-        </div>
-        <div class="nav-menu">
-            <ul class="list">
-                <li>Our Work</li>
-                <li>Our Team</li>
-                <li>Careers</li>
-                <li>Contact</li>
-            </ul>
-        </div>
+<?php
+    include('includes/header.php');
+?>
         <div class="login_success_message"><?php
     session_start();
     if(isset($_SESSION['status'])){

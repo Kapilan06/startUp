@@ -10,26 +10,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
 
     <div class="main-cont">
         <div class="nav">
-           <div class="burger"> 
-               <div class="burger-line"></div>
+           <div class="burger" onclick="toggle()"> 
+               <div class="burger-line "></div>
                <div class="burger-line"></div>
                <div class="burger-line"></div>
 
            </div>
            <div>
-               <img src="images/logo.png" width="180px" height="40px" alt="company logo"/>
+               <img src="imgs/logo.png" width="180px" height="40px" alt="company logo"/>
            </div>
 
       
-           <div class="nav-circle">
+           <div class="nav-circle" style='visibility: hidden;'>  
                    
-                    <img src="images/navGrid.svg" width="30px" height="30px" />
+                    <img src="imgs/navGrid.svg" width="30px" height="30px" />
              
            </div>
         </div>
@@ -51,13 +51,25 @@
           </div>
 
           <div class="ball">
-            <img id='downArrow' src="images/arrow_drop_down.svg" width="55px"/>
+            <img id='downArrow' src="imgs/arrow_drop_down.svg" width="55px"/>
           </div>
 
         </div>
 
     </div>
-   
-	<script src="index.js"></script>
+    <div class="nav-side-menu">
+      <ul class="list">
+        <li>Section 1</li>
+        <li>Section 1</li>
+        <li><a href="career.php" style="text-decoration:none; color:black"> Career </a></li>
+        <li><a href="contactUs.php" style="text-decoration:none; color:black"> Contact Us </a></li>
+      </ul>
+ 
+      <div class="nav-btn-cont">
+         <a href="/" class="nav-more-btn">Some btn</a>
+         
+      </div>
+    </div>
   </body>
+  <script src="main.js"></script>
 </html>

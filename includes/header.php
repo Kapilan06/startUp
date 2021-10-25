@@ -11,8 +11,8 @@
     <link href = "main.css" rel="stylesheet" type = "text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href = "css/main1.css" rel="stylesheet" type = "text/css">
-    
+    <link href = "main.css" rel="stylesheet" type = "text/css">
+    <link href ="css/main1.css" rel="stylesheet" type = "text/css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,23 +29,24 @@
 
 
 </head>
+<script src="main.js"></script>
 <body>
-    <div class="main-cont">
+<div class="main-cont">
         <div class="nav">
-           <div class="burger"> 
-               <div class="burger-line"></div>
+           <div class="burger" onclick="toggle()"> 
+               <div class="burger-line "></div>
                <div class="burger-line"></div>
                <div class="burger-line"></div>
 
            </div>
            <div>
-               <img src="images/logo.png" width="180px" height="40px" alt="company logo"/>
+               <img src="imgs/logo.png" width="180px" height="40px" alt="company logo"/>
            </div>
 
       
-           <div class="nav-circle">
+           <div class="nav-circle" style='visibility: hidden;'>  
                    
-                    <img src="images/navGrid.svg" width="30px" height="30px" />
+                    <img src="imgs/navGrid.svg" width="30px" height="30px" />
              
            </div>
         </div>
@@ -53,9 +54,25 @@
             <ul class="list">
                 <li>Our Work</li>
                 <li>Our Team</li>
-                <li><a href="career.php">Careers</a></li>
-                <li><a href="contactUs.php">Contact Us</a></li>
-                <li><a href="login.php">Login</a></li>
-                <li><a href="logout.php">Logout</a></li>
+                <li>Careers</li>
+                <li>Contact</li>
             </ul>
         </div>
+
+        
+
+    </div>
+    <div class="nav-side-menu">
+      <ul class="list">
+        <li>Section 1</li>
+        <li>Section 1</li>
+        <li><a href="career.php" style="text-decoration:none; color:black"> Career </a></li>
+        <li><a href="contactUs.php" style="text-decoration:none; color:black"> Contact Us </a></li>
+      </ul>
+ 
+      <div class="nav-btn-cont">
+         <a href="/" class="nav-more-btn">Some btn</a>
+         
+      </div>
+    </div>
+  
