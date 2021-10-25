@@ -32,6 +32,8 @@
 <script src="main.js"></script>
 <body>
 <div class="main-cont">
+
+    <div class="main-cont">
         <div class="nav">
            <div class="burger" onclick="toggle()"> 
                <div class="burger-line "></div>
@@ -59,15 +61,27 @@
             </ul>
         </div>
 
-        
+        <div class="hero">
+
+          <div>Hi there.</div>
+
+          <div class="typewriter" id="myTypewriter">
+            <h1>Let's bring your <span id='idea'>ideas</span> to life.</h1>
+          </div>
+
+          <div class="ball">
+            <img id='downArrow' src="imgs/arrow_drop_down.svg" width="55px"/>
+          </div>
+
+        </div>
 
     </div>
     <div class="nav-side-menu">
       <ul class="list">
         <li>Section 1</li>
         <li>Section 1</li>
-        <li><a href="career.php" style="text-decoration:none; color:black"> Career </a></li>
-        <li><a href="contactUs.php" style="text-decoration:none; color:black"> Contact Us </a></li>
+        <li>Section 1</li>
+        <li>Section 1</li>
       </ul>
  
       <div class="nav-btn-cont">
@@ -75,4 +89,3 @@
          
       </div>
     </div>
-  
