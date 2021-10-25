@@ -1,0 +1,261 @@
+
+.form_border{
+    border: 4px ridge #161616;
+background: #f5eaea;
+}
+
+.login_success_message{
+    text-align: center;
+    padding: 10px;
+}
+.form_text{
+    color: blanchedalmond;
+}
+.container_background{
+    padding-top: 15px;
+    padding-bottom: 15px;
+} 
+label .upload-group{
+    background: blue;
+}
+table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+.contactus_head{
+    background: #212529;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.form_content_contactus{
+    -webkit-box-shadow: 3px 2px 25px 0px rgba(207,210,232,1);
+    -moz-box-shadow: 3px 2px 25px 0px rgba(207,210,232,1);
+    box-shadow: 3px 2px 25px 0px rgba(207,210,232,1);
+    position: relative;
+    background: #de531f;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.carousel-inner img{
+    height: 400px;
+    width:50%;
+}
+
+
+.career_top{
+    
+    background-size:100% auto;
+    margin: 0;
+    position: relative;
+    top: 25%;
+    height: 160px;
+    width: 100%;
+    padding-bottom: 15px;
+    -webkit-box-shadow: 3px 2px 25px 0px rgba(207,210,232,1);
+-moz-box-shadow: 3px 2px 25px 0px rgba(207,210,232,1);
+box-shadow: 3px 2px 25px 0px rgba(207,210,232,1);
+    
+    /*
+    background-image:url('images/ux.png');
+    margin: auto;
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    margin-top: 2px;
+    display: ;*/
+    background-repeat: no-repeat;
+    vertical-align: center;
+    
+}
+.slide_right {
+    width: 100%;
+    overflow: hidden;
+    
+    max-width: 700px
+  }
+  
+  .slide_right h6 {
+    animation: 2s slide_right 2s forwards;
+    transform:translateX(-100%);
+  }
+  
+  @keyframes slide_right {
+    to {
+      transform:translateX(0);
+    }
+  }
+
+.h1_style{
+    line-height: normal;
+    display: inline-block;
+    vertical-align:middle
+}
+.h1_style,.h6_style{
+    width: 100%;
+    text-align: center;
+    
+}
+.career_Content{
+    margin-top: 30px;
+    
+    top: 15%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+    width: 90%;
+  
+    
+}
+.career_body{
+    text-align: center;
+    padding: 10px;
+}
+.vacancy_card{
+    background:white;
+    border-radius: 10px;
+    border: 4px groove #bbc2c7;
+    
+    padding: 15px 35px;
+    display: inline-block;
+    box-shadow: 2px -3px 44px -9px rgba(201,187,187,0.38);
+-webkit-box-shadow: 2px -3px 44px -9px rgba(201,187,187,0.38);
+-moz-box-shadow: 2px -3px 44px -9px rgba(201,187,187,0.38);  
+}
+.vacancy_card .title_card{
+    border-bottom: 1px solid rgba(192, 192, 192, 0.288);
+    position: relative;
+}
+.vacancy_card .title_card span {
+    color: #c40d06;
+    padding: 3px 0;
+    font-weight: 500;
+}
+.fa{
+    display: inline-block;
+    
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: inherit;
+    line-height: 1;
+    font-family: FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased
+}
+.vacancy_card.title_card h4{
+    margin: 20px 0px 15px 0px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+.vacancy_card .basic_details, .career_details-basic_details {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    font-family: "Work Sans", sans-serif !important;
+}
+.vacancy_card .description {
+    width: 100%;
+    min-height: 80px;
+    color: silver;
+    
+}
+.vacancy_card .button-div-a {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 12px;
+}
+
+.career_flex{
+display: flex;
+    
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+}
+
+.vacancy_card .button-div-a {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 12px;
+}
+.button-div-a a {
+    padding: 10px 20px;
+    background-color: #4ca7f1;
+    border: 0px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 20px;
+    transition: all 0.3s ease-in;
+    font-size: 18px;
+    text-decoration: none;
+}
+.button-div-a a:hover{
+    color: black;
+    background: white;
+    border: solid 2px black;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.vacancy_card .basic_details p i, .career_details-basic_details p i {
+    color: #f1634c;
+    font-weight: 400;
+    margin-right: 5px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+
+.career_flex>.flex_seperation {
+    flex: 1 1 0;
+    padding: 10px;
+   
+}
+.cara_image_height{
+    -webkit-box-shadow: 2px 0px 22px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 0px 22px 1px rgba(0,0,0,0.75);
+box-shadow: 2px 0px 22px 1px rgba(0,0,0,0.75);
+}
+
+.container_career {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 0px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+.text_center{
+    text-align: center;
+    padding: 5px 0px;
+}
+
+/*********************************8/*/
+
+.login_container{
+    width: 75%;
+}
