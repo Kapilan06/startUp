@@ -22,8 +22,7 @@
 
   </head>
   <body>
-
-  <div class="main-cont">
+ 
    <?php 
    include('includes/header.php');
    ?>
@@ -158,7 +157,6 @@
      </div>
    </div>
   </div>
-</div>
 </body>
   <script src="Js/index.js"></script>
 </html>
