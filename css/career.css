@@ -51,7 +51,7 @@ table {
     margin: 0;
     position: relative;
     top: 25%;
-    height: 160px;
+    
     width: 100%;
     padding-bottom: 15px;
     -webkit-box-shadow: 3px 2px 25px 0px rgba(207,210,232,1);
@@ -200,25 +200,7 @@ display: flex;
     padding: 0;
     margin-bottom: 12px;
 }
-.button-div-a a {
-    padding: 10px 20px;
-    background-color: #4ca7f1;
-    border: 0px;
-    border-radius: 50px;
-    color: white;
-    margin-top: 20px;
-    transition: all 0.3s ease-in;
-    font-size: 18px;
-    text-decoration: none;
-}
-.button-div-a a:hover{
-    color: black;
-    background: white;
-    border: solid 2px black;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-}
+
 .vacancy_card .basic_details p i, .career_details-basic_details p i {
     color: #f1634c;
     font-weight: 400;
@@ -247,8 +229,8 @@ box-shadow: 2px 0px 22px 1px rgba(0,0,0,0.75);
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    z-index: -1;
-    
+    /*z-index: -1;
+    */
 }
 .text_center{
     text-align: center;

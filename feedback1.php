@@ -1,11 +1,11 @@
 <?php
-include('includes/header.php');
+include('includes/navbar.php');
 session_start(); /* Starts the session */
 if(!isset($_SESSION['UserData']['Username'])){
 header("location:login1.php");
 exit;
 }
-include('includes/navbar.php')
+
 ?>
 <br/>
 <div class="card mx-auto" style="width: 18rem;">

@@ -7,11 +7,12 @@
     <div class="navbar-nav">
       <a class="nav-item nav-link" href="contactUs.php">Contact Us</a>
       <a class="nav-item nav-link" href="career.php">Career</a>
-      <?php if(!isset($_SESSION['UserData']['Username'])) : ?>
+      <?php
+       if(!isset($_SESSION['UserData']['Username'])) : ?>
       <a class="nav-item nav-link" href="login1.php">Login</a>
       <?php else:?>
         <a class="nav-item nav-link" href="index1.php">Check Feedback</a>
-        <a class="nav-item nav-link" href="logout.php">Logout</a>
+        <a class="nav-item nav-link" href="logout1.php">Logout</a>
       <?php endif; ?>
     </div>
   </div>

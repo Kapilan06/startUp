@@ -46,8 +46,8 @@
       <ul class="list">
         <li>Section 1</li>
         <li>Section 1</li>
-        <li>Section 1</li>
-        <li>Section 1</li>
+        <li><a href="career.php" style="text-decoration: none;">Career<a></li>
+        <li><a href="contactUs.php" style="text-decoration: none;">Contact Us</a></li>
       </ul>
  
       <div class="nav-btn-cont">

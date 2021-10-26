@@ -156,10 +156,10 @@ include 'DBconfig.php';
 
        $del_querry_result= $database->getReference($ref_table)->remove();
        if($del_querry_result){
-        $_SESSION['status']="Contact deleted successfully";
+        $_SESSION['status']="Feedback deleted successfully";
         header('Location: index1.php');
         }else{
-        $_SESSION['status']="Contact not deleted successfully";
+        $_SESSION['status']="Feedback not deleted !!";
         header('Location: index1.php');
         }
     }
@@ -192,11 +192,11 @@ include 'DBconfig.php';
         //$postRef = $database->getReference($ref_table)->push($postData);
 
         if($update_querry){
-            $_SESSION['status']="Contact updated successfully";
+            $_SESSION['status']="Feedback updated successfully";
             header('Location: index1.php');
         }
         else{
-            $_SESSION['status']="Contact not updated successfully";
+            $_SESSION['status']="Feedback is not updated successfully";
             header('Location: index1.php');
         }
 

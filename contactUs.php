@@ -1,6 +1,72 @@
-<?php
-    include('includes/header.php');
-?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--custom css -->
+    <link rel="stylesheet" href="css/header.css">
+    <link href ="css/career.css" rel="stylesheet" type = "text/css">
+
+    <!--bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+ 
+  <div class="main-cont">
+        <div class="nav">
+           <div class="burger" onclick="toggle()"> 
+               <div class="burger-line "></div>
+               <div class="burger-line"></div>
+               <div class="burger-line"></div>
+
+           </div>
+           <div>
+               <img src="imgs/logo.png" width="180px" height="40px" alt="company logo"/>
+           </div>
+
+      
+           <div class="nav-circle" style='visibility: hidden;'>  
+                   
+                    <img src="imgs/navGrid.svg" width="30px" height="30px" />
+             
+           </div>
+        </div>
+        <div class="nav-menu">
+            <ul class="list">
+                <li>Our Work</li>
+                <li>Our Team</li>
+                <li>Careers</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        
+
+    </div>
+    <div class="nav-side-menu">
+      <ul class="list">
+        <li>Section 1</li>
+        <li>Section 1</li>
+        <li><a href="career.php" style="text-decoration: none;">Career<a></li>
+        <li><a href="contactUs.php" style="text-decoration: none;">Contact Us</a></li>
+      </ul>
+ 
+      <div class="nav-btn-cont">
+         <a href="/" class="nav-more-btn">Some btn</a>
+         
+      </div>
+    </div>
         <div class="login_success_message"><?php
     session_start();
     if(isset($_SESSION['status'])){
@@ -103,6 +169,6 @@
     </div>
     
    
-	<script src="index.js"></script>
+	<script src="Js/index.js"></script>
   </body>
 </html>
