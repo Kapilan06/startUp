@@ -16,7 +16,7 @@ background: #f5eaea;
     padding-bottom: 15px;
 } 
 label .upload-group{
-    background: blue;
+    
 }
 table {
     table-layout: fixed;
@@ -39,9 +39,22 @@ table {
     padding: 10px;
     
 }
+.form_content_application{
+    -webkit-box-shadow: 3px 2px 25px 0px rgba(207,210,232,1);
+    -moz-box-shadow: 3px 2px 25px 0px rgba(207,210,232,1);
+    box-shadow: 3px 2px 25px 0px rgba(207,210,232,1);
+    position: relative;
+    background: #db5304;
+    border-radius: 15px;
+    padding: 10px;
+}
 .carousel-inner img{
     height: 400px;
     width:50%;
+}
+.form_content_application button:hover{
+    background: rgb(214, 40, 40);
+    color: white;
 }
 
 
